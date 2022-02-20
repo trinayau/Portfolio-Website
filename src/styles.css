@@ -74,6 +74,34 @@ p {
   padding: 100px 60px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--branding-colour);
+  transition: all 100ms ease-in-out;
+}
 .portrait {
   border-radius: 4px;
 }
@@ -119,6 +147,10 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  nav a {
+    font-size: 12px;
   }
 
   .hero {

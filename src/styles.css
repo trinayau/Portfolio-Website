@@ -28,7 +28,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
@@ -40,7 +40,7 @@ p {
 .hero {
   background: var(--secondary-colour);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -147,10 +147,10 @@ footer .social-links a:hover {
   background: var(--branding-colour);
 }
 .portrait {
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 20px 20px;
 }
 
 .content {
@@ -189,7 +189,7 @@ footer .social-links a:hover {
     line-height: 1;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
   .project-description {
@@ -198,20 +198,20 @@ footer .social-links a:hover {
   }
 
   nav a {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .btn {
     font-size: 18px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
-
   .content {
     text-align: center;
     padding: 0;
+  }
+
+  .content-container {
+    padding: 0px 20px;
   }
 
   footer .contact-box {

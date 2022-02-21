@@ -23,11 +23,26 @@
     />
     <meta
       name="description"
-      content="Front-end Developer based in London, UK - Trina Yau"
+      content="About Trina Yau, a front-end Developer based in London, UK"
     />
     <title>Trina Yau Portfolio Website</title>
   </head>
   <body>
+      <nav>
+      <div class="container">
+           <nav class="d-flex justify-content-between">
+             <a href="/">
+        <img src="images/logo.jpg" alt="Trina Yau logo" class="logo d-none d-md-block" />
+        <img src="images/logo-small.png" alt="Trina Yau mobile logo" class="d-block d-md-none logo">
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</li></a>
+          <li class="active"><a href="/about.html" title="About Trina">About</li></a>
+          <li><a href="/work.html" title="About Trina's work">Work</li></a>
+          <li><a href="/contact.html"title="Contact Trina">Contact</li></a>
+        </ul>
+      </div>
+    </nav>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -49,5 +64,26 @@
         </div>
       </div>
     </div>
+        <footer>
+      <div class="contact-box d-flex justify-content-between m-5">
+        <div>
+        <h3>Work Inquiry</h3>
+        <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+        <a href="/contact.html" title="Contact Trina for work opportunities" target="_blank" class="btn btn-branding d-none d-md-flex mt-3">Contact me</a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+      <a href="mailto:trinayaupz@gmail.com" class="email-link mb-5">trinayaupz@gmail.com</a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.instagram.com/trina.codes/" title="Trina's Coding Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/trinayau" title="GitHub Profile" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/trina-yau/" title="Trina's LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p class="text-center mt-5">This project was coded by Trina Yau and it is 
+        <a href="https://github.com/trinayau/Portfolio-Website" target="_blank" title="Link to Portfolio Page on GitHub"> open-sourced</a> ❤️</p>
+    </footer>
   </body>
 </html>

@@ -55,6 +55,11 @@ p {
   font-size: 24px;
 }
 
+.headshot {
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
 .btn-branding {
   background: var(--branding-colour);
   border-radius: 4px;
@@ -155,6 +160,7 @@ footer .social-links a:hover {
 
 .content {
   margin: 30px;
+  text-align: center;
 }
 
 .content h1 {
@@ -176,6 +182,15 @@ footer .social-links a:hover {
 .content-container p {
   font-size: 18px;
   font-family: var(--default-font-family);
+}
+
+.content a {
+  color: #000;
+  transition: all 0.2ms ease-in-out;
+}
+
+.content a:hover {
+  color: #7A8368;
 }
 
 .about-me p {

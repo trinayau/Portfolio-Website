@@ -111,6 +111,16 @@ nav a:hover {
   transition: all 100ms ease-in-out;
 }
 
+.contact-container a{
+  color:#272142;
+  text-decoration: none;
+}
+
+
+.contact-container a:hover{
+  color:#7A8368
+
+}
 footer {
   margin: 60px 0;
 }
@@ -184,12 +194,12 @@ footer .social-links a:hover {
   font-family: var(--default-font-family);
 }
 
-.content a {
+.about-me a {
   color: #000;
   transition: all 0.2ms ease-in-out;
 }
 
-.content a:hover {
+.about-me a:hover {
   color: #7A8368;
 }
 
@@ -197,6 +207,8 @@ footer .social-links a:hover {
   margin: 0 30px;
   font-size: 18px;
 }
+
+
 
 @media (max-width: 900px) {
   h1 {
@@ -218,6 +230,7 @@ footer .social-links a:hover {
   }
 
   nav a {
+    color: #272142;
     font-size: 16px;
   }
 

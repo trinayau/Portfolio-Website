@@ -208,6 +208,17 @@ footer .social-links a:hover {
   font-size: 18px;
 }
 
+/* project */
+.btn-green {
+  background-color: #7A8368;
+  color: #fff;
+}
+
+.btn-light {
+  color: #272142;
+  background-color: #FBD8D2;
+}
+
 
 
 @media (max-width: 900px) {

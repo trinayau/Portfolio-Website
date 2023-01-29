@@ -264,3 +264,18 @@ footer .social-links a:hover {
     border-radius: 10px;
   }
 }
+
+@media screen and (max-width: 600px) {
+
+  .video-container{
+    max-width: 100vw;
+    padding: 0;
+    overflow: hidden;
+  }
+  video{
+    max-width: 100vw;
+    padding: 20px;
+  }
+}
+  
+

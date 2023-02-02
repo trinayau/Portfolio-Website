@@ -201,17 +201,22 @@ footer .social-links a:hover {
 }
 
 .about-me a {
-  color: #000;
-  transition: all 0.2ms ease-in-out;
+  color: var(--branding-colour);
+  transition: all 200ms ease-in-out;
 }
 
 .about-me a:hover {
-  color: #7A8368;
+  color: #fff;
 }
+
 
 .about-me p {
   margin: 0 30px;
   font-size: 18px;
+}
+
+.contact-btn a{
+  color: var(--branding-colour)!important;
 }
 
 /* project */
@@ -223,6 +228,10 @@ footer .social-links a:hover {
 .btn-light {
   color: #272142;
   background-color: #FBD8D2;
+}
+
+video{
+border-radius: 10px;
 }
 
 
